@@ -1,0 +1,16 @@
+h1 {
+  color: #72A1E5;
+}
+h2 {
+  color: hsl(253, 65%, 71%);
+}
+h3 {
+  color: rgb(252, 211, 222);
+}
+h4 {
+  color: blueviolet;
+}
+
+div {
+  background-color: #9CBFA7;
+}
