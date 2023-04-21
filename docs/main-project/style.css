@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 10px 90px 60px 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .links a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+#main-hero {
+  color: #F9FAF8;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#main-hero .under-text {
+  max-width: 60%;
+}
+
+#main-hero button {
+  background-color: #3882F6;
+  font-weight: bold;
+  color: #F9FAF8;
+  border-radius: 4px;
+  border-style: unset;
+  padding: 5px 20px;
+}
+
+div.image-placeholder {
+  width: 400px;
+  height: 125px;
+  background-color: rgb(120, 118, 118);
+}
+
+h3 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#information {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info p {
+  max-width: 110px;
+  color: #e416b1;
+}
+
+#information .illustration-placeholder {
+  border: 3px solid #3882F6;
+  border-radius: 4px;
+  width: 110px;
+  height: 110px;
+}
+
+#quote {
+  padding: 50px 0px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inspiring-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 50%;
+}
+
+.author {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 40%;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.action-call {
+  padding: 20px 60px;
+  border-radius: 4px;
+  align-content: space-between;
+  background-color: #3882F6;
+  display: flex;
+  color: #F9FAF8;
+}
+
+.sign-up {
+  font-size: large;
+}
+
+.copyright {
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+
+
