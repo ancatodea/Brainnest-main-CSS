@@ -50,12 +50,17 @@ header .logo {
   border-radius: 4px;
   border-style: unset;
   padding: 5px 20px;
+  margin-top: 10px;
 }
 
 div.image-placeholder {
-  width: 400px;
+  width: 250px;
   height: 125px;
   background-color: rgb(120, 118, 118);
+}
+img {
+  width: 250px;
+  height: 125px;
 }
 
 h3 {
@@ -88,6 +93,7 @@ h3 {
   height: 110px;
 }
 
+
 #quote {
   padding: 50px 0px;
   background-color: #E5E7EB;
@@ -111,20 +117,23 @@ h3 {
   margin-left: 40%;
 }
 
-footer {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-}
-
 .action-call {
-  padding: 20px 60px;
+  padding: 30px 50px 30px 50px;
+  margin: 50px 150px;
   border-radius: 4px;
-  align-content: space-between;
   background-color: #3882F6;
   display: flex;
+  justify-content: space-around;
   color: #F9FAF8;
+}
+
+.action-call button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 4px;
+  border: 2px solid #F9FAF8;
+  padding: 5px 30px;
+  
 }
 
 .sign-up {
@@ -132,6 +141,8 @@ footer {
 }
 
 .copyright {
+  padding: 30px 60px;
+  text-align:center;
   background-color: #1F2937;
   color: #E5E7EB;
 }
